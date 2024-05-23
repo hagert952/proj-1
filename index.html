@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arapey:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arapey:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Righteous&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arapey:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Righteous&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="colo-bg">
+    <header></header>
+    <div class="bookmarker container d-flex justify-content-center align-items-center p-3">
+
+        <div class="text-center bg2 d-flex justify-content-center align-items-center "><h1 class="pacifico-regular text-center position-relative ">Bookmarker</h1></div>
+
+    </div>
+
+</br>
+
+<div class="container ">
+  <div class="container text-center">
+    <p>...................................................................................................................................................................................................................................................................................................................................................................</p>
+  </div>
+</div>
+<div class="text-center textcol d-flex justify-content-center align-items-center gap-2">
+<div class="d-flex justify-content-center align-items-center "><i class="fa-solid fa-bookmark text-center fa-xl c"></i></div>
+    <h2 class="fonts bg righteous-regular">Bookmark your favorite sites</h2><i class="fa-solid fa-bookmark fa-xl c1"></i> </div>
+<div class="container">
+<div class="container d-flex text-center gap-1 fw-bold">
+    <i class="fa-solid fa-book-bookmark m-1"></i>   <p>Site Name</p>
+</div >   
+<div class="container">
+    <div class=" mb-3" >
+
+        <input type="text"class="form-control focus-input border-0 border-bottom"id="UrlName"placeholder="Bookmark Name"/>
+        <!-- <label for="Bookmarks">Name</label> -->
+        
+        </div>
+     
+</div>
+
+
+</div>
+<div class="container">
+<div class="container d-flex fw-bold">
+    <i class="fa-solid fa-link m-1"></i>  <p >Site URL</p>
+</div >   
+<div class="container">
+    <div class=" mb-3 " >
+
+        <input type="text"class="form-control focus-input"id="url"placeholder="Bookmark Name"/>
+        <!-- <label for="Bookmark">Name</label> -->
+        
+        </div>
+     
+</div>
+
+
+</div>
+<div class=" text-center d-flex justify-content-center align-items-center m-4 "><button onclick="addUrl();" class="bg-b text-white py-2 px-5">Submit</button></div>
+
+ <div class="container ">
+    <div class="container text-center">
+      <p>.................................................................................................................................................................................................................................................................................................................................................................................</p> 
+    </div>
+  </div>
+  
+  <div  class=" d-flex justify-content-center align-items-center text-center">
+
+    <div id="" class=" py-5 row container d-flex justify-content-center align-items-center text-center ">
+     <table class="bg-white pt-4 table text-center">
+      <thead class="">
+<tr>
+
+  <th>index</th><th>website Name</th><th >Visit</th><th>Delete</th>
+</tr>
+      </thead>
+      <tbody id="rowdata">
+<!-- <tr><th>1</th><th>Google</th>
+<th class="text-center d-flex align-items-center  justify-content-center"><button class="borde py-2 px-3 bg-b1 text-white text-center"> <i class="fa-solid fa-eye text-white px-1"></i>  Visit</button></th>
+<th class="text-center"><button class="borde2 py-2 px-3 bg-b1 text-white text-center "> <i class="fa-solid fa-trash-can text-white px-1"></i>  Delete</button></th> -->
+      </tbody>
+     </table>
+    </div>
+       </div> 
+        <!-- </div>  
+  </div>
+  
+    <div class=" bg-white w-100 g d-flex justify-content-center align-items-center ">
+      
+      <div class="col-lg-3 col-sm-3 col-xs-3 m-4  fw-bold">
+         <div> <p>Index</p></div>
+      </div>
+      <div class="col-lg-3 col-sm-3 col-xs-3 m-4 fw-bold">
+         <div> <p>Website Name</p></div>
+      </div>
+      <div class="col-lg-3  col-sm-3 col-xs-3  m-4 fw-bold ">
+         <div> 
+          <p>Visit</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-3 col-xs-3 m-4 fw-bold">
+         <div> <p>Delete</p></div>
+      </div>
+  
+      </div> -->
+      <!-- <div class=" bg-white w-100 g d-flex justify-content-center align-items-center ">
+      
+        <div class="col-lg-3 col-sm-3 col-xs-3 m-4  fw-bold">
+           <div> <p>Index</p></div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-3 m-4 fw-bold">
+           <div> <p>Website Name</p></div>
+        </div>
+        <div class="col-lg-3  col-sm-3 col-xs-3  m-4 fw-bold ">
+           <div> 
+            <p>Visit</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-3 m-4 fw-bold">
+           <div> <p>Delete</p></div>
+        </div> -->
+    
+        <!-- </div> -->
+
+
+
+
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+
+</html>
